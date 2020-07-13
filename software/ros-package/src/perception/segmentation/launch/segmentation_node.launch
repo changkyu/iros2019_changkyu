@@ -1,0 +1,11 @@
+<launch>
+
+<node pkg="changkyu_segmentation" type="changkyu_segmentation_node" name="changkyu_segmentation_node" output="screen"/>
+
+<rosparam param="changkyu/segmentation">    
+    srv_name : "changkyu/segmentation"
+</rosparam>
+
+<rosparam param="changkyu/camera" command="load" file="$(find changkyu_camera)/config/camera_info_all.yaml" />
+
+</launch>

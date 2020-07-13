@@ -1,0 +1,24 @@
+exp_idx: 4
+env_name: tabletop_kuka
+#env_name: bluebox_kukaafds
+planner: ours_pushing
+dir_save: /home/cs1080/projects/ijcai2019/software/planning/result_robot
+rotator: /home/cs1080/projects/ijcai2019/software/planning/save/rotator.save
+endeff_z: 0.417
+#plane_z: -0.215
+#plane_z: -0.217
+plane_z: -0.22
+camera_name: camera2
+do_merge: true
+#crop_space: [] #tabletop
+#crop_space: [0.43, -0.36, -0.160, 0.615, 0.615, 0.348, 0.348, 0.31, 0.03, 0.24] #amazonbox
+#fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/amazonbox_kuka/dove_beauty_bar.n%d.001.goal
+#crop_space: [0.42, -0.37, -0.160, 0.615, 0.615, 0.348, 0.348, 0.45, 0.03, 0.27] # blue_box
+#fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/bluebox_kuka_robot/dove_beauty_bar.n%d.001.goal
+#crop_space: [0.43, -0.38, -0.160, 0.615, 0.615, 0.348, 0.348, 0.47, 0.03, 0.27] # blue_box
+crop_space: [0.44, -0.39, -0.160, 0.615, 0.615, 0.348, 0.348, 0.60, 0.03, 0.30] # blue_box
+fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/tabletop_kuka/dove_beauty_bar.n%d.001.goal
+#fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/bluebox_kuka_robot/dove_beauty_bar.n%d.001.goal
+#fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/video_kuka/dove_beauty_bar.n%d.001.goal
+#fmt_goal: /home/cs1080/projects/ijcai2019/software/planning/input/video_kuka/dove_beauty_bar.n%d.002.goal
+#path: /home/cs1080/projects/ijcai2019/software/planning/result/bluebox_kuka/now/ours_pushing/ours_pushing.dove_beauty_bar.n6.001.id000.res

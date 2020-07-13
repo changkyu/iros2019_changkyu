@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/ros-industrial/robotiq.git
+	branch = indigo-devel
+	commit = 22f8b0080d288971af34104c831042c79c6ad487
+	parent = 99822ff3d67ec82b02ef8762327b7c775c0636f9
+	cmdver = 0.3.1

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="dove_beauty_bar">
+  <static>true</static>
+  <!-- Give the base link a unique name -->
+  <link name="base">
+
+    <!-- Offset the base by half the lenght of the cylinder -->
+    <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.135</mass>
+    </inertial>
+    <collision name="base_collision">
+      <geometry>
+	<mesh>
+		<uri>model://dove_beauty_bar/meshes/dove_beauty_bar.dae</uri>
+	</mesh> 
+     </geometry>
+    </collision>
+
+    <!-- The visual is mostly a copy of the collision -->
+    <visual name="base_visual">
+      <geometry>
+	<mesh>
+		<uri>model://dove_beauty_bar/meshes/dove_beauty_bar.dae</uri>
+	</mesh>
+      </geometry>
+    </visual>
+  </link>
+</model>
+</sdf>

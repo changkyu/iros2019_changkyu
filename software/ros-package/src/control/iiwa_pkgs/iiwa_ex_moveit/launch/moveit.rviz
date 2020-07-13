@@ -1,0 +1,606 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /MotionPlanning1/Scene Geometry1
+        - /MotionPlanning1/Scene Robot1
+        - /MotionPlanning1/Planning Request1
+        - /MarkerArray1
+        - /MarkerArray2
+        - /MarkerArray3
+        - /MarkerArray3/Status1
+        - /MarkerArray3/Namespaces1
+        - /MarkerArray4
+        - /MarkerArray5
+      Splitter Ratio: 0.487805
+    Tree Height: 1042
+  - Class: rviz/Help
+    Name: Help
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.03
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Constraint_Aware_IK: true
+      MoveIt_Warehouse_Host: 127.0.0.1
+      MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Color Enabled: false
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          iiwa_link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_ee:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_ft_connection:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_wiring:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Loop Animation: true
+        Robot Alpha: 0.5
+        Robot Color: 150; 50; 150
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trail Step Size: 1
+        Trajectory Topic: move_group/display_planned_path
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.08
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0
+        Joint Violation Color: 255; 0; 255
+        Planning Group: manipulator
+        Query Goal State: false
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: move_group/monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 0.1
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.2
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          iiwa_link_0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_6:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_7:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_ee:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_ft_connection:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          iiwa_link_wiring:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          world:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pkg_ijcai2019/markers/windowpath
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pkg_ijcai2019/markers/objspath
+      Name: MarkerArray
+      Namespaces:
+        dove_beauty_bar_0(0/90): true
+        dove_beauty_bar_0(1/90): true
+        dove_beauty_bar_0(10/90): true
+        dove_beauty_bar_0(11/90): true
+        dove_beauty_bar_0(12/90): true
+        dove_beauty_bar_0(13/90): true
+        dove_beauty_bar_0(14/90): true
+        dove_beauty_bar_0(15/90): true
+        dove_beauty_bar_0(16/90): true
+        dove_beauty_bar_0(17/90): true
+        dove_beauty_bar_0(18/90): true
+        dove_beauty_bar_0(19/90): true
+        dove_beauty_bar_0(2/90): true
+        dove_beauty_bar_0(20/90): true
+        dove_beauty_bar_0(21/90): true
+        dove_beauty_bar_0(22/90): true
+        dove_beauty_bar_0(23/90): true
+        dove_beauty_bar_0(24/90): true
+        dove_beauty_bar_0(25/90): true
+        dove_beauty_bar_0(26/90): true
+        dove_beauty_bar_0(27/90): true
+        dove_beauty_bar_0(28/90): true
+        dove_beauty_bar_0(29/90): true
+        dove_beauty_bar_0(3/90): true
+        dove_beauty_bar_0(30/90): true
+        dove_beauty_bar_0(31/90): true
+        dove_beauty_bar_0(32/90): true
+        dove_beauty_bar_0(33/90): true
+        dove_beauty_bar_0(34/90): true
+        dove_beauty_bar_0(35/90): true
+        dove_beauty_bar_0(36/90): true
+        dove_beauty_bar_0(37/90): true
+        dove_beauty_bar_0(38/90): true
+        dove_beauty_bar_0(39/90): true
+        dove_beauty_bar_0(4/90): true
+        dove_beauty_bar_0(40/90): true
+        dove_beauty_bar_0(41/90): true
+        dove_beauty_bar_0(42/90): true
+        dove_beauty_bar_0(43/90): true
+        dove_beauty_bar_0(44/90): true
+        dove_beauty_bar_0(45/90): true
+        dove_beauty_bar_0(46/90): true
+        dove_beauty_bar_0(47/90): true
+        dove_beauty_bar_0(48/90): true
+        dove_beauty_bar_0(49/90): true
+        dove_beauty_bar_0(5/90): true
+        dove_beauty_bar_0(50/90): true
+        dove_beauty_bar_0(51/90): true
+        dove_beauty_bar_0(52/90): true
+        dove_beauty_bar_0(53/90): true
+        dove_beauty_bar_0(54/90): true
+        dove_beauty_bar_0(55/90): true
+        dove_beauty_bar_0(56/90): true
+        dove_beauty_bar_0(57/90): true
+        dove_beauty_bar_0(58/90): true
+        dove_beauty_bar_0(59/90): true
+        dove_beauty_bar_0(6/90): true
+        dove_beauty_bar_0(60/90): true
+        dove_beauty_bar_0(61/90): true
+        dove_beauty_bar_0(62/90): true
+        dove_beauty_bar_0(63/90): true
+        dove_beauty_bar_0(64/90): true
+        dove_beauty_bar_0(65/90): true
+        dove_beauty_bar_0(66/90): true
+        dove_beauty_bar_0(67/90): true
+        dove_beauty_bar_0(68/90): true
+        dove_beauty_bar_0(69/90): true
+        dove_beauty_bar_0(7/90): true
+        dove_beauty_bar_0(70/90): true
+        dove_beauty_bar_0(71/90): true
+        dove_beauty_bar_0(72/90): true
+        dove_beauty_bar_0(73/90): true
+        dove_beauty_bar_0(74/90): true
+        dove_beauty_bar_0(75/90): true
+        dove_beauty_bar_0(76/90): true
+        dove_beauty_bar_0(77/90): true
+        dove_beauty_bar_0(78/90): true
+        dove_beauty_bar_0(79/90): true
+        dove_beauty_bar_0(8/90): true
+        dove_beauty_bar_0(80/90): true
+        dove_beauty_bar_0(81/90): true
+        dove_beauty_bar_0(82/90): true
+        dove_beauty_bar_0(83/90): true
+        dove_beauty_bar_0(84/90): true
+        dove_beauty_bar_0(85/90): true
+        dove_beauty_bar_0(86/90): true
+        dove_beauty_bar_0(87/90): true
+        dove_beauty_bar_0(88/90): true
+        dove_beauty_bar_0(89/90): true
+        dove_beauty_bar_0(9/90): true
+        dove_beauty_bar_0_path: true
+        dove_beauty_bar_0_pathindex: true
+        dove_beauty_bar_1(0/90): true
+        dove_beauty_bar_1(1/90): true
+        dove_beauty_bar_1(10/90): true
+        dove_beauty_bar_1(11/90): true
+        dove_beauty_bar_1(12/90): true
+        dove_beauty_bar_1(13/90): true
+        dove_beauty_bar_1(14/90): true
+        dove_beauty_bar_1(15/90): true
+        dove_beauty_bar_1(16/90): true
+        dove_beauty_bar_1(17/90): true
+        dove_beauty_bar_1(18/90): true
+        dove_beauty_bar_1(19/90): true
+        dove_beauty_bar_1(2/90): true
+        dove_beauty_bar_1(20/90): true
+        dove_beauty_bar_1(21/90): true
+        dove_beauty_bar_1(22/90): true
+        dove_beauty_bar_1(23/90): true
+        dove_beauty_bar_1(24/90): true
+        dove_beauty_bar_1(25/90): true
+        dove_beauty_bar_1(26/90): true
+        dove_beauty_bar_1(27/90): true
+        dove_beauty_bar_1(28/90): true
+        dove_beauty_bar_1(29/90): true
+        dove_beauty_bar_1(3/90): true
+        dove_beauty_bar_1(30/90): true
+        dove_beauty_bar_1(31/90): true
+        dove_beauty_bar_1(32/90): true
+        dove_beauty_bar_1(33/90): true
+        dove_beauty_bar_1(34/90): true
+        dove_beauty_bar_1(35/90): true
+        dove_beauty_bar_1(36/90): true
+        dove_beauty_bar_1(37/90): true
+        dove_beauty_bar_1(38/90): true
+        dove_beauty_bar_1(39/90): true
+        dove_beauty_bar_1(4/90): true
+        dove_beauty_bar_1(40/90): true
+        dove_beauty_bar_1(41/90): true
+        dove_beauty_bar_1(42/90): true
+        dove_beauty_bar_1(43/90): true
+        dove_beauty_bar_1(44/90): true
+        dove_beauty_bar_1(45/90): true
+        dove_beauty_bar_1(46/90): true
+        dove_beauty_bar_1(47/90): true
+        dove_beauty_bar_1(48/90): true
+        dove_beauty_bar_1(49/90): true
+        dove_beauty_bar_1(5/90): true
+        dove_beauty_bar_1(50/90): true
+        dove_beauty_bar_1(51/90): true
+        dove_beauty_bar_1(52/90): true
+        dove_beauty_bar_1(53/90): true
+        dove_beauty_bar_1(54/90): true
+        dove_beauty_bar_1(55/90): true
+        dove_beauty_bar_1(56/90): true
+        dove_beauty_bar_1(57/90): true
+        dove_beauty_bar_1(58/90): true
+        dove_beauty_bar_1(59/90): true
+        dove_beauty_bar_1(6/90): true
+        dove_beauty_bar_1(60/90): true
+        dove_beauty_bar_1(61/90): true
+        dove_beauty_bar_1(62/90): true
+        dove_beauty_bar_1(63/90): true
+        dove_beauty_bar_1(64/90): true
+        dove_beauty_bar_1(65/90): true
+        dove_beauty_bar_1(66/90): true
+        dove_beauty_bar_1(67/90): true
+        dove_beauty_bar_1(68/90): true
+        dove_beauty_bar_1(69/90): true
+        dove_beauty_bar_1(7/90): true
+        dove_beauty_bar_1(70/90): true
+        dove_beauty_bar_1(71/90): true
+        dove_beauty_bar_1(72/90): true
+        dove_beauty_bar_1(73/90): true
+        dove_beauty_bar_1(74/90): true
+        dove_beauty_bar_1(75/90): true
+        dove_beauty_bar_1(76/90): true
+        dove_beauty_bar_1(77/90): true
+        dove_beauty_bar_1(78/90): true
+        dove_beauty_bar_1(79/90): true
+        dove_beauty_bar_1(8/90): true
+        dove_beauty_bar_1(80/90): true
+        dove_beauty_bar_1(81/90): true
+        dove_beauty_bar_1(82/90): true
+        dove_beauty_bar_1(83/90): true
+        dove_beauty_bar_1(84/90): true
+        dove_beauty_bar_1(85/90): true
+        dove_beauty_bar_1(86/90): true
+        dove_beauty_bar_1(87/90): true
+        dove_beauty_bar_1(88/90): true
+        dove_beauty_bar_1(89/90): true
+        dove_beauty_bar_1(9/90): true
+        dove_beauty_bar_1_path: true
+        dove_beauty_bar_1_pathindex: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pkg_ijcai2019/markers/workspace
+      Name: MarkerArray
+      Namespaces:
+        bound_high: false
+        bound_low: false
+        camera_1: false
+        camera_2: false
+        table: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: false
+      Marker Topic: /pkg_arrangement_dove/markers/objs
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: false
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pkg_ijcai2019/markers/eepath
+      Name: MarkerArray
+      Namespaces:
+        ee_0: true
+        ee_1: true
+        ee_10: true
+        ee_11: true
+        ee_12: true
+        ee_13: true
+        ee_14: true
+        ee_15: true
+        ee_16: true
+        ee_17: true
+        ee_18: true
+        ee_19: true
+        ee_2: true
+        ee_20: true
+        ee_21: true
+        ee_22: true
+        ee_23: true
+        ee_24: true
+        ee_25: true
+        ee_26: true
+        ee_27: true
+        ee_28: true
+        ee_29: true
+        ee_3: true
+        ee_30: true
+        ee_31: true
+        ee_32: true
+        ee_33: true
+        ee_34: true
+        ee_35: true
+        ee_36: true
+        ee_37: true
+        ee_38: true
+        ee_39: true
+        ee_4: true
+        ee_40: true
+        ee_41: true
+        ee_42: true
+        ee_43: true
+        ee_44: true
+        ee_45: true
+        ee_46: true
+        ee_47: true
+        ee_48: true
+        ee_49: true
+        ee_5: true
+        ee_50: true
+        ee_51: true
+        ee_52: true
+        ee_53: true
+        ee_54: true
+        ee_55: true
+        ee_56: true
+        ee_57: true
+        ee_58: true
+        ee_59: true
+        ee_6: true
+        ee_60: true
+        ee_61: true
+        ee_62: true
+        ee_63: true
+        ee_64: true
+        ee_65: true
+        ee_66: true
+        ee_67: true
+        ee_68: true
+        ee_69: true
+        ee_7: true
+        ee_70: true
+        ee_71: true
+        ee_72: true
+        ee_73: true
+        ee_74: true
+        ee_75: true
+        ee_76: true
+        ee_77: true
+        ee_78: true
+        ee_79: true
+        ee_8: true
+        ee_80: true
+        ee_81: true
+        ee_82: true
+        ee_83: true
+        ee_84: true
+        ee_85: true
+        ee_86: true
+        ee_87: true
+        ee_88: true
+        ee_9: true
+      Queue Size: 100
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz/XYOrbit
+      Distance: 2.32093
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.06
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.523795
+        Y: -0.00852853
+        Z: 2.37672e-06
+      Name: Current View
+      Near Clip Distance: 0.01
+      Pitch: 0.814797
+      Target Frame: world
+      Value: XYOrbit (rviz)
+      Yaw: 6.27994
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1176
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: false
+  MotionPlanning:
+    collapsed: false
+  MotionPlanning - Slider:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002a200000452fc0200000017fb000000100044006900730070006c006100790073010000002800000452000000d000fffffffb0000000a0049006d00610067006501000002d50000012d0000000000000000fb0000000800480065006c00700000000342000000bb0000007000fffffffb0000000a0056006900650077007300000003b0000000b0000000a900fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb0000002e004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d00200053006c00690064006500720000000000ffffffff0000004200fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006700000001e8000001d7000001cb00fffffffb0000000a0049006d0061006700650000000228000000ff0000000000000000fb0000000a0049006d00610067006501000002ef000001130000000000000000fb0000000a0049006d00610067006500000001ba0000014c0000000000000000fb0000000a0049006d00610067006500000001d80000011b0000000000000000fb0000000a0049006d0061006700650000000229000001060000000000000000fb0000000a0049006d0061006700650000000254000000de0000000000000000fb0000000a0049006d006100670065000000025d000000d20000000000000000fb0000000a0049006d0061006700650000000332000000d00000000000000000fb0000000a0049006d00610067006501000001b1000000460000000000000000fb0000000a0049006d0061006700650000000335000000cd0000000000000000fb0000000a0049006d00610067006501000001fd000000e80000000000000000fb0000000a0049006d00610067006500000001e4000000b10000000000000000fb0000000a0049006d0061006700650000000249000000d90000000000000000fb0000000a0049006d00610067006500000002e80000011a0000000000000000fb0000000a0049006d0061006700650100000334000000ce0000000000000000000004970000045200000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1855
+  X: 65
+  Y: 24

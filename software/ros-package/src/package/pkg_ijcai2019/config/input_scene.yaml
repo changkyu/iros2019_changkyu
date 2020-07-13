@@ -1,0 +1,10 @@
+#env_name: bluebox_kuka
+#plane_z: -0.215
+#env_name: openspace_sim
+plane_z: 0
+endeff_z: 0.417
+workspace: [0.42, -0.37, -0.160, 0.615, 0.615, 0.348, 0.348, 0.45, 0.03, 0.27] # blue_box
+#path: /home/cs1080/projects/ijcai2019/software/planning/result/tabletop_kuka/now/ours_pushing/ours_pushing.dove_beauty_bar.n9.001.id000.res
+#path: /home/cs1080/projects/ijcai2019/software/planning/result/openspace_sim/now/ours_pushing/ours_pushing.dove_beauty_bar.n30.001.id000.res
+path: /home/cs1080/projects/ijcai2019/software/planning/result/tabletop_video/now/ours_pushing/ours_pushing.dove_beauty_bar.n9.004.id000.res
+idx: 0

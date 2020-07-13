@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <node ns="iiwa" 
+          pkg="pkg_ijcai2019" 
+          type="demopath_kuka" 
+          name="demopath_kuka" 
+          output="screen" respawn="false"/>
+
+    <rosparam param="changkyu/pkg_ijcai2019/demopath_kuka" command="load" file="$(find pkg_ijcai2019)/config/input.yaml" />
+</launch>

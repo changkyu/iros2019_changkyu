@@ -1,0 +1,7 @@
+int32 binId
+geometry_msgs/Pose target_pose
+---
+int32 collision_num
+
+
+

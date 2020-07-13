@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="pkg_ijcai2019" type="show_scene" name="show_scene" output="screen"/>
+    <rosparam param="changkyu/camera" command="load" file="$(find changkyu_camera)/config/camera_info_all.yaml" />
+    <arg name="camera_config_path" default="$(find changkyu_camera)/config/camera_info_all.yaml" />
+    <rosparam param="changkyu/camera_config" subst_value="True">
+        $(arg camera_config_path)
+    </rosparam>
+    <rosparam param="changkyu/pkg_ijcai2019/tabletop_kuka" command="load" file="$(find pkg_ijcai2019)/config/input.yaml" />    
+</launch>
