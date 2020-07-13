@@ -4,15 +4,15 @@ Changkyu Song and Abdeslam Boularias, Object Rearrangement with Nested Nonprehen
 
 This paper considers the problem of rearrange-ment planning, i.e finding a sequence of manipulation actionsthat displace multiple objects from an initial configuration toa given goal configuration. Rearrangement is a critical skillfor robots so that they can effectively operate in confinedspaces that contain clutter. Examples of tasks that requirerearrangement include packing objects inside a bin, whereinobjects need to lay according to a predefined pattern. In tightbins, collision-free grasps are often unavailable. Nonprehensileactions, such as pushing and sliding, are preferred becausethey can be performed using minimalistic end-effectors that caneasily be inserted in the bin. Rearrangement with nonprehensileactions is a challenging problem as it requires reasoning aboutobject interactions in a combinatorially large configurationspace of multiple objects. This work revisits several existing re-arrangement planning techniques and introduces a new one thatexploits nested nonprehensile actions by pushing several similarobjects simultaneously along the same path, which removesthe need to rearrange each object individually. Experiments insimulation and using a real Kuka robotic arm show the abilityof the proposed approach to solve difficult rearrangement taskswhile reducing the length of the end-effector’s trajectories.
 
-![pipeline](.readme/img/iros2019_1.png){width="33%"}
-![pipeline](.readme/img/iros2019_2.png){width="33%"}
-![pipeline](.readme/img/iros2019_3.png){width="33%"}
+![pipeline](.readme/img/iros2019_1.png){:width="33%"}
+![pipeline](.readme/img/iros2019_2.png){:width="33%"}
+![pipeline](.readme/img/iros2019_3.png){:width="33%"}
 
 # Results
 
-![result_1](.readme/img/iros2019_setup.png){width="50%"}
-![result_1](.readme/img/iros2019_real.png){width="50%"}
-![result_1](.readme/img/iros2019_sims.png){width="100%"}
+![result_1](.readme/img/iros2019_setup.png){:width="50%"}
+![result_1](.readme/img/iros2019_real.png){:width="50%"}
+![result_1](.readme/img/iros2019_sims.png){:width="100%"}
 
 # Author
 
